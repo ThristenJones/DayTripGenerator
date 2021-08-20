@@ -3,6 +3,7 @@
 let places = ['japan','germany','alaska','france'];
 let restuarants = ['chilis','red lobster','pluckers','hooters'];
 let transportation = ['corvette', 'mustang','lamborghini','ferrai'];
+let entertainment = ['tv','concert','comedy show','movies']
 
 function numberFinder (array){
 let i = Math.floor(Math.random()*4)
