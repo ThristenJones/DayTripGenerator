@@ -1,8 +1,8 @@
 "use strict"
 
 let places = ['japan','germany','hawaii','france'];
-let restuarants = ['chilis','red lobster','pluckers','texas roadhouse'];
-let transportation = ['corvette', 'mustang','lamborghini','ferrai'];
+let restaurants = ['chilis','red lobster','pluckers','texas roadhouse'];
+let transportation = ['corvette', 'mustang','lamborghini','ferrari'];
 let entertainment = ['museum','concert','comedy show','movies']
 
 function numberFinder (array){
@@ -13,14 +13,14 @@ return array[i]
 let choiceOfPlaces = numberFinder(places);{
 }
 
-let choiceOfResturaunts = numberFinder(restuarants);{
+let choiceOfRestaurants = numberFinder(restaurants);{
 
 }
 
 let choiceOfTransportation = numberFinder(transportation);{
 }
 
-let choiceofEntertainment = numberFinder(entertainment);{
+let choiceOfEntertainment = numberFinder(entertainment);{
 }
 
 function Alert() {
