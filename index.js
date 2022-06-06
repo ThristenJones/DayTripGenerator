@@ -1,7 +1,7 @@
 "use strict"
 
 let places = ['japan','germany','hawaii','france'];
-let restaurants = ['chilis','red lobster','pluckers','texas roadhouse'];
+let restaurants = ["chilli's','red lobster','pluckers','texas roadhouse"];
 let transportation = ['corvette', 'mustang','lamborghini','ferrari'];
 let entertainment = ['museum','concert','comedy show','movies']
 
@@ -24,7 +24,7 @@ let choiceOfEntertainment = numberFinder(entertainment);{
 }
 
 function Alert() {
-    alert(`Hello there, thanks for choosing to have the best time of your life! We've set up a whole trip for you! You will be flying out to ${choiceOfPlaces.toUpperCase()} first class and enjoying a free meal at a fancy resturaunt called ${choiceOfRestaurants.toUpperCase()}. For your transportation, you will be arriving in a ${choiceOfTransportation.toUpperCase()} and your entertainment will be a ${choiceOfEntertainment.toUpperCase()} night `)
+    alert(`Hello there, thanks for choosing to have the best time of your life! We've set up a whole trip for you! You will be flying out to ${choiceOfPlaces.toUpperCase()} first class and enjoying a free meal at a fancy restaurant called ${choiceOfRestaurants.toUpperCase()}. For your transportation, you will be arriving in a ${choiceOfTransportation.toUpperCase()} and your entertainment will be a ${choiceOfEntertainment.toUpperCase()} night `)
 }
  
 Alert()
